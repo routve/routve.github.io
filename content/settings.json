@@ -1,0 +1,9 @@
+{
+  "title": "Routve",
+  "url": "https://routve.github.io",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "routve/routve"
+}

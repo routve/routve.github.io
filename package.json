@@ -1,16 +1,15 @@
 {
-  "name": "routve.github.io",
+  "name": "routve",
   "version": "1.0.0",
-  "description": "Routve Document",
-  "main": "index.js",
-  "repository": "https://github.com/routve/routve.github.io.git",
-  "author": "Routve",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.0"
-  },
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "nuxt --port 3009",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.7.1",
+    "nuxt": "^2.14.6"
   }
 }
